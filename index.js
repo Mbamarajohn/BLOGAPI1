@@ -1,7 +1,7 @@
 const express = require("express");
 const { connectToMongoDB } = require("./db");
 const passport = require('passport')
-const rateLimit = require('express-rate-limit');
+const rateLimit = require('express-rate-limit')
 const helmet = require('helmet')
 const winston = require('winston')
 const logger = require('./logger/logger')
