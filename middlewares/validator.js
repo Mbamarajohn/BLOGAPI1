@@ -1,8 +1,8 @@
 const joi = require('joi');
 
 const validateBlogMiddleWare = (req, res, next) => {
-	const blogPayload = req.body;
-	const { error } = blogValidator.validate(blogPayload);
+	const blogPayload = req.body
+	const { error } = blogValidator.validate(blogPayload)
 
 	if (error) {
 		console.log(error);
