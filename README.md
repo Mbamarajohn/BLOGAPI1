@@ -45,8 +45,8 @@ N/B: The owner of a blog is gotten from the user.id
 - run `npm start`
 ---
 ## Base URL
-- somehostsite.com
-- https://www.heroku.com/free
+
+https://fragile-tick-overalls.cyclic.app
 ---
 ## Models
 ---
