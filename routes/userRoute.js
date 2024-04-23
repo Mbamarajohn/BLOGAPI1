@@ -1,5 +1,5 @@
 const express = require('express')
-const passport = require('passport')
+const passport = require('passport');
 const JWTStrategy = require('passport-jwt').Strategy
 const ExtractJWT = require('passport-jwt').ExtractJwt
 const jwt = require('jsonwebtoken')
