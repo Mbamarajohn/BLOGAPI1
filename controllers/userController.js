@@ -56,7 +56,6 @@ async (email, password, done) => {
     try{
 
         const user = await userModel.findOne({email})
-        console.log(user);
         
         if(!user)
         return done(null, false,{message: 'User not found'})
