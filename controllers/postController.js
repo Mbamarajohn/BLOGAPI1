@@ -10,7 +10,6 @@ const { query } = require("express");
 const createBlogPost = async (req, res, next) => {
   try {
     const user = await userModel.findById(req.user._id)
-    console.log("user =>", user);
     if(user){
       
       // Algorithm for calculating read_time.
